@@ -1,6 +1,6 @@
 import { Link } from "@tanstack/react-router";
 import { Facebook, Instagram, Linkedin, Mail, MapPin, Phone, Twitter, Youtube } from "lucide-react";
-import logo from "@/assets/logo.png";
+import logo from "@/assets/Logo1.jpg";
 import { CATEGORIES } from "@/data/products";
 
 export function Footer() {
@@ -11,7 +11,7 @@ export function Footer() {
         <div className="grid gap-12 lg:grid-cols-4">
           <div>
             <div className="flex items-center gap-2.5">
-              <img src={logo} alt="Paramgold" className="h-10 w-10 object-contain" width={40} height={40} loading="lazy" />
+              
               <div>
                 <div className="text-lg font-bold">Paramgold</div>
                 <div className="text-[10px] uppercase tracking-[0.18em] text-primary-foreground/60">Agritech Pvt. Ltd.</div>

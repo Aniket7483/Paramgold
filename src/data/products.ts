@@ -1,6 +1,18 @@
-import npkImg from "@/assets/product-npk.jpg";
-import bioImg from "@/assets/product-bio.jpg";
-import microImg from "@/assets/product-micro.jpg";
+import npkImg from "@/assets/19.png";
+import npkImg2 from "@/assets/40.png";
+import npkImg3 from "@/assets/52.png";
+import npkImg4 from "@/assets/12.png";
+import bioImg from "@/assets/powerroot.jpg";
+import bioImg2 from "@/assets/goldmax.jpg";
+import bioImg3 from "@/assets/rhizo.jpg";
+import bioImg4 from "@/assets/azato.jpg";
+import bioImg5 from "@/assets/mycorrhizal.jpg";
+import bioImg6 from "@/assets/bordo.jpg";
+import bioImg7 from "@/assets/nemax.jpg";
+import microImg from "@/assets/zinc.png";
+import microImg2 from "@/assets/ferrous.jpg";
+import microImg3 from "@/assets/calnitrate.jpg";
+import microimg4 from "@/assets/supergold.jpg";
 import pgrImg from "@/assets/product-pgr.jpg";
 
 export type ProductCategory =
@@ -63,7 +75,7 @@ export const PRODUCTS: Product[] = [
     name: "NPK 13:40:13",
     category: "water-soluble",
     tagline: "Root development & flowering booster",
-    image: npkImg,
+    image: npkImg2,
     description:
       "High-phosphorus water-soluble fertilizer specifically formulated to enhance root proliferation, early plant establishment and flower initiation.",
     benefits: [
@@ -85,7 +97,7 @@ export const PRODUCTS: Product[] = [
     name: "NPK 00:52:34",
     category: "water-soluble",
     tagline: "Flowering & fruit setting specialist",
-    image: npkImg,
+    image: npkImg3,
     description:
       "Nitrogen-free, high-phosphorus and high-potassium grade used at flowering and fruit-set stages for premium quality produce.",
     benefits: [
@@ -106,7 +118,7 @@ export const PRODUCTS: Product[] = [
     name: "NPK 12:61:00",
     category: "water-soluble",
     tagline: "Mono Ammonium Phosphate — pure energy",
-    image: npkImg,
+    image: npkImg4,
     description:
       "Highly concentrated phosphorus source with ammoniacal nitrogen, ideal for early plant growth and root branching.",
     benefits: [
@@ -145,7 +157,7 @@ export const PRODUCTS: Product[] = [
     name: "Ferrous Sulphate",
     category: "non-chelated",
     tagline: "Corrects iron chlorosis fast",
-    image: microImg,
+    image: microImg2,
     description:
       "Heptahydrate ferrous sulphate to deliver readily available iron — eliminates interveinal chlorosis of young leaves.",
     benefits: ["Restores green colour", "Improves photosynthesis", "Cost effective"],
@@ -159,7 +171,7 @@ export const PRODUCTS: Product[] = [
     name: "Calcium Nitrate",
     category: "specialty-water-soluble",
     tagline: "Strong cell walls, longer shelf life",
-    image: npkImg,
+    image: microImg3,
     description:
       "Highly soluble source of calcium and nitrate nitrogen — improves cell wall strength and fruit firmness.",
     benefits: [
@@ -202,7 +214,7 @@ export const PRODUCTS: Product[] = [
     name: "Gold Max",
     category: "specialty-water-soluble",
     tagline: "Premium yield enhancer",
-    image: bioImg,
+    image: bioImg2,
     description:
       "A premium combination of macro, micro and biostimulants designed to maximize yield and quality across crops.",
     benefits: ["Boosts yield 15–25%", "Improves fruit weight and colour", "Reduces stress damage"],
@@ -219,7 +231,7 @@ export const PRODUCTS: Product[] = [
     name: "Rhizo",
     category: "bio-fertilizer",
     tagline: "Rhizobium biofertilizer for legumes",
-    image: bioImg,
+    image: bioImg3,
     description:
       "Liquid Rhizobium culture that fixes atmospheric nitrogen in legume crops through symbiotic root nodulation.",
     benefits: [
@@ -237,7 +249,7 @@ export const PRODUCTS: Product[] = [
     name: "Azato",
     category: "bio-fertilizer",
     tagline: "Azotobacter nitrogen fixer for non-legumes",
-    image: bioImg,
+    image: bioImg4,
     description:
       "Liquid Azotobacter biofertilizer for non-leguminous crops — supplements nitrogen and stimulates growth hormones.",
     benefits: ["Free-living nitrogen fixation", "Produces natural plant hormones", "Reduces urea dependency by 25%"],
@@ -251,7 +263,7 @@ export const PRODUCTS: Product[] = [
     name: "Mycorrhiza",
     category: "bio-fertilizer",
     tagline: "Mycorrhizal root symbiont",
-    image: bioImg,
+    image: bioImg5,
     description:
       "Granular VAM mycorrhiza that extends the root system by up to 100x — dramatically improving phosphorus and water absorption.",
     benefits: ["Massive P uptake", "Improves drought tolerance", "Reduces fertilizer cost"],
@@ -265,7 +277,7 @@ export const PRODUCTS: Product[] = [
     name: "Super Gold",
     category: "micronutrient",
     tagline: "Chelated multi-micronutrient mix",
-    image: microImg,
+    image: microimg4,
     description:
       "EDTA-chelated multi-micronutrient mixture providing balanced Zn, Fe, Mn, Cu, B and Mo for complete plant nutrition.",
     benefits: ["Corrects multiple deficiencies", "Higher bioavailability", "Stable over wide pH"],
@@ -284,7 +296,7 @@ export const PRODUCTS: Product[] = [
     name: "Bordo",
     category: "specialty-water-soluble",
     tagline: "Copper protectant solution",
-    image: bioImg,
+    image: bioImg6,
     description:
       "Stabilized copper-based protectant for prophylactic spray against fungal and bacterial leaf diseases.",
     benefits: ["Broad-spectrum protection", "Improves leaf health", "Compatible with most sprays"],
@@ -298,7 +310,7 @@ export const PRODUCTS: Product[] = [
     name: "Nema-X",
     category: "bio-fertilizer",
     tagline: "Bio-nematicide for healthy roots",
-    image: bioImg,
+    image: bioImg7,
     description:
       "Paecilomyces lilacinus based bio-nematicide that parasitizes nematode eggs and protects roots biologically.",
     benefits: ["Controls root-knot nematodes", "Restores root function", "Safe for soil microbiome"],
