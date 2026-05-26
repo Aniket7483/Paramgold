@@ -319,37 +319,7 @@ export const PRODUCTS: Product[] = [
     dosage: "4 kg/acre soil application.",
     packaging: ["1 kg", "4 kg"],
   },
-  {
-    slug: "param-bloom",
-    name: "Param Bloom",
-    category: "pgr",
-    tagline: "Flowering & fruiting accelerator",
-    image: pgrImg,
-    description:
-      "Synergistic PGR formulation that triggers profuse flowering, reduces flower drop and improves fruit set.",
-    benefits: ["More flowers per plant", "Reduces premature drop", "Uniform ripening"],
-    composition: [
-      { name: "Gibberellic Acid (GA₃)", value: "0.001%" },
-      { name: "Triacontanol", value: "0.05%" },
-    ],
-    crops: ["Mango", "Grapes", "Vegetables", "Pulses"],
-    dosage: "1 ml/L foliar at flowering.",
-    packaging: ["100 ml", "250 ml", "500 ml"],
-  },
-  {
-    slug: "param-grow",
-    name: "Param Grow",
-    category: "pgr",
-    tagline: "Vegetative growth promoter",
-    image: pgrImg,
-    description:
-      "Cytokinin-based growth promoter that pushes vegetative growth and tillering in cereals and vegetables.",
-    benefits: ["More branching/tillers", "Bigger leaf area", "Higher photosynthesis"],
-    composition: [{ name: "Cytokinin + Auxin", value: "Trace" }],
-    crops: ["Wheat", "Paddy", "Cotton", "Vegetables"],
-    dosage: "1 ml/L foliar at vegetative stage.",
-    packaging: ["100 ml", "250 ml"],
-  },
+  
 ];
 
 export const getProduct = (slug: string) => PRODUCTS.find((p) => p.slug === slug);
